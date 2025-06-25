@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Favourite Singers and Songs</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+section + section {
+  margin-top: 5rem;
+}
+body {
+  background-color: #f19fc6;
+  color: white;
+  font-family:"Alumni Sans SC", sans-serif;
+  font-weight: 600;
+}
+</style>
+</head>
+<body>
+
+<div class="w-full bg-black px-6 py-3">
+ <div style="max-width:900px; margin:auto; display:flex; justify-content:space-between;">
+  <h1 class="text-xl text-purple-400">Peace = Songs ♫♫</h1>
+  <ul class="flex gap-4 text-sm text-gray-300">
+   <li><a href="#music">Music</a></li>
+   <li><a href="#songs">Songs</a></li>
+   <li><a href="#singers">Singers</a></li>
+   <li><a href="#getintouch">Get in tuch</a></li>
+  </ul>
+ </div>
+</div>
+
+<section id="music" class="px-6">
+ <div style="max-width:800px; margin:auto;">
+  <h2 class="text-3xl text-red-700">Description about music</h2>
+  <p class="mt-4 text-black text-[15px] leading-relaxed">
+   MUSIC is the best way to describe your Feelings,Love,Peace,Mental State Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolorum aliquid? Maxime porro corporis praesentium. 
+  </p>
+ </div>
+</section>
+
+<section id="songs" class="px-6">
+ <div style="max-width:780px; margin:auto;">
+  <h2 class="text-2xl text-yellow-400">Songs♫ Which I Like Most</h2>
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-y-3 mt-4 text-sm">
+    <div class="bg-green-800 text-purple-400 px-3 py-2">Agar TUM Mil Jao</div>
+    <div class="bg-green-800 text-purple-400 px-3 py-2">Phir Le Aya Dil</div>
+    <div class="bg-green-800 text-purple-400 px-3 py-2">Dil Diyan Gallan</div>
+    <div class="bg-green-800 text-purple-400 px-3 py-2">Samjhawan</div>
+    <div class="bg-green-800 text-purple-400 px-3 py-2">Saibo</div>
+    <div class="bg-green-800 text-purple-400 px-3 py-2">Tere Liye</div>
+  </div>
+ </div>
+</section>
+
+<section id="singers" class="px-6">
+ <div style="max-width:780px; margin:auto;">
+  <h2 class="text-2xl text-pink-700">SINGER'S I LIKE</h2>
+  <ul class="mt-4 space-y-2 text-sm">
+   <li class="bg-blue-800 p-3"><strong>ARJIT SINGH</strong><img src="https://images.indianexpress.com/2021/05/arijit-singh-1200.jpg" alt="Arjit singh"></li>
+   <li class="bg-yellow-500 p-3"><strong>SHREYA GHOSHAL</strong><img src="https://behindthegreatmusic.com/wp-content/uploads/sites/13/2022/05/shreya-ghoshal-with-mic-min-e1653838596972-1024x713.jpeg" alt="Sherya Ghoshal"></li>
+   <li class="bg-black p-3"><strong>ATIF ASLAM</strong><img src="https://reviewit.pk/wp-content/uploads/2020/06/atif-aslam.jpg" alt="Atif Aslam"></li>
+  </ul>
+ </div>
+</section>
+
+<section id="getintouch" class="px-6">
+ <div style="max-width:780px; margin:auto;">
+  <h2 class="text-2xl text-pink-700">Let me know about your intrest about Singers and Music</h2>
+  <p class="text-sm text-blue-600 mt-2">Tell me !!</p>
+  <form class="mt-4 space-y-3">
+    <input type="name" placeholder="whats your name?" class="w-full px-3 py-2 bg--800 text-white text-sm">
+    <input type="favourite" placeholder="Your favourite singer and his best song" class="w-full px-3 py-2 bg-blue-200 text-white text-sm">
+    <textarea rows="4" placeholder="Describe your view on music and singing" class="w-full px-3 py-2 bg-black text-white text-sm"></textarea>
+    <button class="bg-green-700 px-4 py-2 text-sm">Done</button>
+  </form>
+ </div>
+</section>
+
+<footer class="mt-20 text-center text-xs text-black py-4">
+  ♫♪ Enjoy the taste of music ♪♫
+</footer>
+
+</body>
+</html>
